@@ -80,7 +80,7 @@ Collaborative Software Development
 
 We will provide a "real-time" demonstration of collaborative development based on a Distributed Version Control System. 
 
-.. note:: Py-ART and BALTRAD use git+github while wradlib uses hg+bitbucket. We should only present one of those... git+github might be more common. 
+   .. note:: Py-ART and BALTRAD use git+github while wradlib uses hg+bitbucket. We should only present one of those... git+github might be more common. 
    
 The Virtual Machine (VM) already comes with hg and git clients so everyone will be set. Course tutors will demonstrate the following steps::
 
