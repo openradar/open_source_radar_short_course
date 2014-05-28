@@ -80,7 +80,9 @@ Collaborative Software Development
 
 We will provide a "real-time" demonstration of collaborative development based on a Distributed Version Control System. 
 
-   .. note:: Py-ART and BALTRAD use git+github while wradlib uses hg+bitbucket. We should only present one of those... git+github might be more common. 
+.. admonition:: comment by maik
+
+      Py-ART and BALTRAD use git+github while wradlib uses hg+bitbucket. We should only present one of those... git+github might be more common. 
    
 The Virtual Machine (VM) already comes with hg and git clients so everyone will be set. Course tutors will demonstrate the following steps::
 
@@ -117,8 +119,9 @@ The Virtual Machine (VM) already comes with hg and git clients so everyone will 
 	  ...
    
 
-.. admonition:: maik
-   Ok, we should not overreach; however, we should at least address resolving of conflicts and demonstration of the Fork & Pull concept. 
+.. admonition:: comment by maik
+
+      Ok, we should not overreach; however, we should at least address resolving of conflicts and demonstration of the Fork & Pull concept. 
 
 Then course participants can create their own account and a github or bitbucket repository which they will use to host the code they wrote during the course.
 
@@ -126,9 +129,11 @@ Then course participants can create their own account and a github or bitbucket 
 Python Quick Start
 ------------------
 
-   .. note:: @JJ: Didn't you give a quick tutorial at AMS which we could use as a basis?
+.. admonition:: comment by maik
+
+      @JJ: Didn't you give a quick tutorial at AMS which we could use as a basis?
    
-   Otherwise, we should use http://scipy-lectures.github.io/ as a basis to select from.
+      Otherwise, we should use http://scipy-lectures.github.io/ as a basis to select from.
 
 The Python quick start should cover e.g.::
 
