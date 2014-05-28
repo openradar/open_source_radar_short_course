@@ -119,9 +119,9 @@ The Virtual Machine (VM) already comes with hg and git clients so everyone will 
       ...
    
 
-.. admonition:: Comment by maik
+   .. admonition:: Comment by maik
 
-   Ok, we should not overreach; however, we should at least address resolving of conflicts and demonstration of the Fork & Pull concept. 
+      Ok, we should not overreach; however, we should at least address resolving of conflicts and demonstration of the Fork & Pull concept. 
 
 Then course participants can create their own account and a github or bitbucket repository which they will use to host the code they wrote during the course.
 
