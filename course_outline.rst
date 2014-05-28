@@ -1,8 +1,7 @@
-
 OSS for Radar Data Processing
 =============================
 
-|
+Render this document as pdf by ``rst2pdf course_outline.rst``
 
 **09:00 - 09:30** `Introduction`_::
 
