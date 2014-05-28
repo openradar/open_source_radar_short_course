@@ -116,8 +116,7 @@ The Virtual Machine (VM) already comes with hg and git clients so everyone will 
    
       Pull the changes
 
-      ...
-   
+...
 
    .. admonition:: Comment by maik
 
