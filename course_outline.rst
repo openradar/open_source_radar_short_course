@@ -128,11 +128,13 @@ Then course participants can create their own account and a github or bitbucket 
 Python Quick Start
 ------------------
 
-   .. admonition:: Comment by maik
+   .. admonition:: Comments by Maik and Daniel
 
-      @JJ: Didn't you give a quick tutorial at AMS which we could use as a basis?
+      Maik: @JJ: Didn't you give a quick tutorial at AMS which we could use as a basis?
    
       Otherwise, we should use http://scipy-lectures.github.io/ as a basis to select from.
+
+   Daniel: Based on experiences from BALTRAD, where different people had (and continue to have) their personal preferences when it comes to IDE, I don't think we need to deal with IPython at this short course, as it's just one IDE among many. In the end, the important thing is the code, not how or with what it is written. I also share Maik's concern about legibility of IPython's files outside IPython.
 
 The Python quick start should cover e.g.::
 
@@ -188,7 +190,27 @@ Example::
 Hands on BALTRAD
 ----------------
 
-@Daniel: Please will in your content.
+Overview::
+
+    - Brief history and background
+
+    - Development paradigm
+
+    - Package structure and modules
+
+    - ODIM_H5: the OPERA Data Information Model for use with the HDF5 file format
+
+    - How to contribute
+
+Examples::
+
+    - Read polar data and see how they're represented
+
+    - Quality controls and the quality management infrastructure
+
+    - Processing a lot of data at once
+
+    - Generating composites/mosaics
 
 
 Interoperability Demonstration Experiment
