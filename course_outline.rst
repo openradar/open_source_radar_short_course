@@ -134,6 +134,10 @@ Python Quick Start
    
       Otherwise, we should use http://scipy-lectures.github.io/ as a basis to select from.
 
+   .. admonition:: Comment by Daniel
+
+   Based on experiences from BALTRAD, where different people had (and continue to have) their personal preferences when it comes to IDE, I don't think we need to deal with IPython at this short course, as it's just one IDE among many. In the end, the important thing is the code, not how or with what it is written. I also share Maik's concern about legibility of IPython's files outside IPython.
+
 The Python quick start should cover e.g.::
 
    - Installing Python, Python distributions / scientific stacks, most important dependencies
@@ -152,9 +156,6 @@ The Python quick start should cover e.g.::
 
    - Plotting with matplotlib
 
-   .. admonition:: Comment by Daniel
-
-   Based on experiences from BALTRAD, where different people had (and continue to have) their personal preferences when it comes to IDE, I don't think we need to deal with IPython at this short course, as it's just one IDE among many. In the end, the important thing is the code, not how or with what it is written. I also share Maik's concern about legibility of IPython's files outside IPython.
 
 Hands on Py-ART
 ---------------
