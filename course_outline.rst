@@ -7,7 +7,9 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 
    Taking seats, booting notebooks...
    
-   Introduction of tutors and course outline, brief participant survey. 
+   Introduction of tutors and course outline, brief participant survey.
+
+   Technology setup: Launching the Virtual Machine for the course via `VirtualBox <https://www.virtualbox.org/wiki/Downloads>`_.
    
    
 **09:30 - 10:15** `Collaborative Software Development`_::
@@ -17,7 +19,7 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
    We will demonstrate the ease of contributing to OSS projects.
    
    
-**10:15 - 10:30** `The Ipython Notebook`_
+**10:15 - 10:30** `The Ipython Notebook`_::
 
    Using the IPython notebook as an interactive Python environment.
    
