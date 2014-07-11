@@ -9,7 +9,7 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
    
    Introduction of tutors and course outline, brief participant survey.
 
-   Technology setup: Launching the Virtual Machine for the course via `VirtualBox <https://www.virtualbox.org/wiki/Downloads>`_.
+   Technology setup: Launching the Virtual Machine for the course via VirtualBox.
    
    
 **09:30 - 10:15** `Collaborative Software Development`_::
