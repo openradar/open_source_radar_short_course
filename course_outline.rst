@@ -5,50 +5,61 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 
 **09:00 - 09:30** `Introduction`_::
 
-   Taking seats, booting notebooks, ... brief introduction of tutors. 
+   Taking seats, booting notebooks...
    
-   Brief presentation of the course concept and outline.
+   Introduction of tutors and course outline, brief participant survey.
+
+   Technology setup: Launching the Virtual Machine for the course via VirtualBox.
    
    
-**09:30 - 10:30** `Collaborative Software Development`_::
+**09:30 - 10:15** `Collaborative Software Development`_::
    
    The idea of treating users as co-developers is at the heart of OSS.
    
    We will demonstrate the ease of contributing to OSS projects.
    
    
+**10:15 - 10:30** `The Ipython Notebook`_::
+
+   Using the IPython notebook as an interactive Python environment.
+   
+   
 **10:30 - 11:00** Coffee break
 
 
-**11:00 - 12:00** `Python Quick Start`_::
+**11:00 - 11:30** `Python Quick Start`_::
 
    Python will be the key to use the presented radar software tools.
    
    Learn how to use Python for writing scripts and for interactive data analysis.  
    
 
-**12:00 - 12:45** `Hands on Py-ART`_::
+**11:30 - 12:30** `Hands on Py-ART`_::
 
-   Overview of the Py-ART software.
+   Overview of the Py-ART software,
+   
+   Exercises.
+   
+**12:30 - 13:00**  `Hands on wradlib`_::
 
-   Using Py-ART for {@Scott and JJ: add topic selection}
+   Overview of the wradlib software, 
+   
+   Exercises.
    
 
-**12:45 - 14:00** Lunch break
+**13:00 - 14:00** Lunch break
 
 
-**14:00 - 14:45** `Hands on wradlib`_::
+**14:00 - 14:30** `Hands on wradlib`_::
 
-   Overview of the wradlib software.
-
-   Using wradlib for {@Maik and Thomas: add topic selection}
+   cont.
    
 
-**14:45 - 15:30** `Hands on BALTRAD`_::
+**14:30 - 15:30** `Hands on BALTRAD`_::
 
-   Overview of the BALTRAD software.
+   Overview of the BALTRAD software,
 
-   Using BALTRAD for {@Daniel: add topic selection}
+   Exercises.
    
 
 **15:30 - 16:00** Coffee break
@@ -72,7 +83,9 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 Introduction
 ------------
 
-Time to settle in and say hello. Course tutors will open the course and introduce themselves and their projects, as well as the general structure and concept of the short course. 
+Time to settle in and say hello. Course tutors will open the course and introduce themselves and their projects, as well as the general structure and concept of the short course.
+
+With a brief `online survey <https://www.surveymonkey.com/s/Y3SGVV2>`_, we will get an overview of the participants' background and motivations.  
 
 
 Collaborative Software Development
@@ -80,10 +93,6 @@ Collaborative Software Development
 
 We will provide a "real-time" demonstration of collaborative development based on a Distributed Version Control System. 
 
-   .. admonition:: Comment by maik
-
-      Py-ART and BALTRAD use git+github while wradlib uses hg+bitbucket. We should only present one of those... git+github might be more common. 
-   
 The Virtual Machine (VM) already comes with hg and git clients so everyone will be set. Course tutors will demonstrate the following steps::
 
    User 1
@@ -118,33 +127,27 @@ The Virtual Machine (VM) already comes with hg and git clients so everyone will 
 
 ...
 
-   .. admonition:: Comment by maik
+Course participants can create their own accounts at http://githubcom or http://bitbucket.org where they 
+can host the code they wrote during the course.
 
-      Ok, we should not overreach; however, we should at least address resolving of conflicts and demonstration of the Fork & Pull concept. 
 
-Then course participants can create their own account and a github or bitbucket repository which they will use to host the code they wrote during the course.
+The Ipython Notebook
+--------------------
+
+Participants will learn how to use the IPython notebook for interactive data analysis and coding. 
+The IPython notebook will also be the format for all the exercises within this course.
 
 
 Python Quick Start
 ------------------
 
-   .. admonition:: Comments by Maik and Daniel
-
-      Maik: @JJ: Didn't you give a quick tutorial at AMS which we could use as a basis?
-   
-      Otherwise, we should use http://scipy-lectures.github.io/ as a basis to select from.
-
-   Daniel: Based on experiences from BALTRAD, where different people had (and continue to have) their personal preferences when it comes to IDE, I don't think we need to deal with IPython at this short course, as it's just one IDE among many. In the end, the important thing is the code, not how or with what it is written. I also share Maik's concern about legibility of IPython's files outside IPython.
-
-The Python quick start should cover e.g.::
+The Python quick start will cover e.g.::
 
    - Installing Python, Python distributions / scientific stacks, most important dependencies
    
    - Starting Python from the shell and "hello world"
    
    - Executing a Python script
-   
-   - Interactive programming using the IPython notebook
    
    - General guidelines on programming style and syntax in Python
    
@@ -164,27 +167,31 @@ Hands on Py-ART
 Hands on wradlib
 ----------------
 
+The entire session outline can be found at http://wradlib_short_course.bitbucket.org.
+
 Overview::
 
-   - Brief history and background
+   - History and background
+   
+   - Community and collaboration
+   
+   - Development paradigm
+   
+   - Installation, documentation
 
    - Package structure and modules
-
-   - How to install and use?
-
-   - wradlib's "flat data model"  
-
-   - How to contribute?
-
-Example::
-
-   - Read polar DX data from German Weather Service
    
-   - Clutter detection and removal
+   - Examples
+
+Exercises::
+
+   - Read polar DX data from German Weather Service and University of Bonn
    
    - Georeferencing and plotting a PPI
    
-   - ...
+   - Weighted compositing
+   
+   - Overlays with other geodata
 
 
 Hands on BALTRAD
@@ -216,14 +223,25 @@ Examples::
 Interoperability Demonstration Experiment
 -----------------------------------------
 
-Demonstrate pairwise interaction between the presented OSS tools::
+In this final exercise, we will demonstrate pairwise interaction between the presented OSS tools.
 
-   Py-ART and BALTRAD talk to each other.
+We will show how BALRAD and Py_ART can directly eschange data in a Python environment::
+
+   @Scott, Daniel and Jonathan: Please outline the Py-ART + BALTRAD interaction.
    
-   BALTRAD and wradlib talk to each other.
+
+We will show how BALTRAD and wradlib can exchange data via ODIM_H5 files:: 
+   
+   - a polar volume from Suergavere (Estland) will be processed using BALTRAD's odx_toolbox
+
+   - the result will be read, georeferenced and presented by wradlib
+
+   - processing alternatives might be tested using wradlib's own processing capabilities
 
 
 Feedback round
 --------------
 
-We will discuss, together with the participants, the perspectives for using OSS software in different institutional environments. Participants are invited to feedback on their impression of the presented OSS tools and whether these tools are an option for their future activities.
+We will discuss, together with the participants, the perspectives for using OSS software in different institutional environments. 
+Participants are invited to feedback on their impression of the presented OSS tools and whether these tools are an option 
+for their future activities.
