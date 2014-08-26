@@ -13,7 +13,10 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 
 
 **09:30 - 10:15** `Collaborative Software Development`_::
+  
+ The idea of treating users as co-developers is at the heart of OSS.
 
+ We will demonstrate the ease of contributing to OSS projects.
 
 **10:15 - 10:30** `Python Quick Start`_::
 
