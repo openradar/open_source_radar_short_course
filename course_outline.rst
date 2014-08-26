@@ -14,21 +14,13 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 
 **09:30 - 10:15** `Collaborative Software Development`_::
 
-   Simple Version Control
-
-   The idea of treating users as co-developers is at the heart of OSS.
-
-   We will demonstrate the ease of contributing to OSS projects.
-
-   GitHub Demonstration
-
-
 **10:15 - 10:30** `Python Quick Start`_::
 
    Python will be the key to use the presented radar software tools.
 
    Learn how to use Python for writing scripts and for interactive data analysis.
 
+=======
 
 **10:30 - 11:00** Coffee break
 
@@ -100,45 +92,12 @@ The Virtual Machine (VM) already comes with hg and git clients so everyone will 
 
    User 1
 
-      Get github account
-
-      Create an empty repository on github
-
-      Clone the repository to local machine
-
-      Add some content to local repository
-
-      Commit the changes to local repository
-
-      Push the changes to github
-
-      Add user 2 as a co-developer with write permission
+    Submit a pull request against this course outline
 
    User 2
 
-      Clone repository
-
-      Apply some local changes
-
-      Commit the changes locally
-
-      Push the changes to github
-
-   User 1
-
-      Pull the changes
-
-...
-
 Course participants can create their own accounts at http://githubcom or http://bitbucket.org where they
 can host the code they wrote during the course.
-
-
-The Ipython Notebook
---------------------
-
-Participants will learn how to use the IPython notebook for interactive data analysis and coding.
-The IPython notebook will also be the format for all the exercises within this course.
 
 
 Python Quick Start
@@ -161,10 +120,34 @@ The Python quick start will cover e.g.::
    - Plotting with matplotlib
 
 
+The Ipython Notebook
+--------------------
+
+Participants will learn how to use the IPython notebook for interactive data analysis and coding.
+The IPython notebook will also be the format for all the exercises within this course.
+
+
 Hands on Py-ART
 ---------------
 
-@Scott and JJ: Please fill in your content.
+Session outline can be found at: https://github.com/EVS-ATMOS/pyart_short_course
+
+These notebooks and associate data will automagically be loaded onto the Virtual machine for use in the course.. For static notebooks:
+
+Lesson 1: Introduction to the Py-ART data model
+          http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/1%20Investigating%20the%20Py-ART%20Radar%20Object.ipynb
+
+Lesson 2: Simple Py-ART usage, a lesson from Miami
+          http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/2%20Simple%20Py-ART%20Usage%20plotting%20PPI%20data%20on%20a%20map%20and%20add%20a%20new%20field.ipynb
+
+Lesson 3: Example Py-ART processing module, LP based phase proccessing
+          http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/3%20Using%20LP%20to%20retrieve%20propigation%20phase%20from%20polarmetric%20phase%20shift.ipynb
+
+Lesson 4: Mapping multiple radars onto a grid and visualizing
+          http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/4%20Gridding%20multiple%20NEXRAD%20to%20a%20mesh.ipynb
+
+Bonus 1: CHILL RHIs of Co Supercell
+         http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/Bonus%201%2C%20CHILL%20RHI.ipynb
 
 
 Hands on wradlib
