@@ -14,13 +14,12 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 
 **09:30 - 10:15** `Collaborative Software Development`_::
 
+
 **10:15 - 10:30** `Python Quick Start`_::
 
    Python will be the key to use the presented radar software tools.
 
    Learn how to use Python for writing scripts and for interactive data analysis.
-
-=======
 
 **10:30 - 11:00** Coffee break
 
