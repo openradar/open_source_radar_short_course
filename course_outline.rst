@@ -14,24 +14,19 @@ Render this document as pdf by ``rst2pdf course_outline.rst``
 
 **09:30 - 10:15** `Collaborative Software Development`_::
 
-   The idea of treating users as co-developers is at the heart of OSS.
-
-   We will demonstrate the ease of contributing to OSS projects.
-
-
-**10:15 - 10:30** `The Ipython Notebook`_::
-
-   Using the IPython notebook as an interactive Python environment.
-
-
-**10:30 - 11:00** Coffee break
-
-
-**11:00 - 11:30** `Python Quick Start`_::
+**10:15 - 10:30** `Python Quick Start`_::
 
    Python will be the key to use the presented radar software tools.
 
    Learn how to use Python for writing scripts and for interactive data analysis.
+
+=======
+
+**10:30 - 11:00** Coffee break
+
+**11:00 - 11:30** `The Ipython Notebook`_::
+
+   Using the IPython notebook as an interactive Python environment.
 
 
 **11:30 - 12:30** `Hands on Py-ART`_::
@@ -100,10 +95,6 @@ The Virtual Machine (VM) already comes with hg and git clients so everyone will 
     Submit a pull request against this course outline
 
    User 2
-
-    Comment on and accept the Pull Request
-
-...
 
 Course participants can create their own accounts at http://githubcom or http://bitbucket.org where they
 can host the code they wrote during the course.
