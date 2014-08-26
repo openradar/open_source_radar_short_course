@@ -143,7 +143,7 @@ Session outline can be found at: https://github.com/EVS-ATMOS/pyart_short_course
 
 These notebooks and associate data will automagically be loaded onto the Virtual machine for use in the course.. For static notebooks:
 
-Lesson 1: Introduction to the Py-ART data model .._link: http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/1%20Investigating%20the%20Py-ART%20Radar%20Object.ipynb
+Lesson 1: Introduction to the Py-ART data model .. _link: http://nbviewer.ipython.org/github/EVS-ATMOS/pyart_short_course/blob/master/1%20Investigating%20the%20Py-ART%20Radar%20Object.ipynb
 
 Lesson 2: Simple Py-ART usage, a lesson from Miami
 
